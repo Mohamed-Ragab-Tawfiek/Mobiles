@@ -1,0 +1,119 @@
+.container-fluid{
+	height: 88px;
+}
+.navbar-default .navbar-nav{
+	width: 80%;
+	margin-left: 21%;
+}
+.navbar-default .navbar-nav>li{
+	margin-left: 6%;
+}
+.navbar-default .navbar-nav>li>a{
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.carousel-inner{
+	width: 100%;
+	height: 50%;
+	margin-top: -20px;
+}
+.carousel-indicators li{
+	background-color: #222
+}
+.carousel-indicators .active{
+	background-color: #888;
+}
+.glyphicon-chevron-right,.glyphicon-chevron-left{
+	color: #222;
+}
+
+.star-rating{
+	
+	font-size: 16px;
+}
+.row .col-xs-12{
+	background-color: #888;
+	padding-bottom: 53px;
+	padding-left: 40%;
+	padding-top: 50px;
+	position: absolute;
+	top: 190px;
+	bottom: 0;
+}
+.row .col-xs-12 i{
+	margin-top: -30px;
+	margin-left: 2%;
+	text-align: center;
+
+}
+.row .col-xs-12 p{
+	color: #CBC1A8;
+	font-size: 16px;
+	margin-left: -42px;
+}
+.row .col-xs-12 span{
+	letter-spacing: 5px;
+}
+.row .col-xs-4{
+	margin-bottom: 0;
+}
+.img-responsive {
+	display: none;
+}
+.col-xs-3 i:hover{
+	color: #222;
+}
+
+.loading{
+	background-color: #053A6A;
+	z-index: 9999;
+	position: fixed;
+	top: 0px;
+	bottom: 0px;
+	width: 100%;
+	height: 100%;
+}
+
+.cube1, .cube2 {
+  background-color: #fff;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  top: 40%;
+  left: 45%;
+  
+  -webkit-animation: sk-cubemove 1.8s infinite ease-in-out;
+  animation: sk-cubemove 1.8s infinite ease-in-out;
+}
+
+.cube2 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
+
+@-webkit-keyframes sk-cubemove {
+  25% { -webkit-transform: translateX(42px) rotate(-90deg) scale(0.5) }
+  50% { -webkit-transform: translateX(42px) translateY(42px) rotate(-180deg) }
+  75% { -webkit-transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5) }
+  100% { -webkit-transform: rotate(-360deg) }
+}
+
+@keyframes sk-cubemove {
+  25% { 
+    transform: translateX(42px) rotate(-90deg) scale(0.5);
+    -webkit-transform: translateX(42px) rotate(-90deg) scale(0.5);
+  } 50% { 
+    transform: translateX(42px) translateY(42px) rotate(-179deg);
+    -webkit-transform: translateX(42px) translateY(42px) rotate(-179deg);
+  } 50.1% { 
+    transform: translateX(42px) translateY(42px) rotate(-180deg);
+    -webkit-transform: translateX(42px) translateY(42px) rotate(-180deg);
+  } 75% { 
+    transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5);
+    -webkit-transform: translateX(0px) translateY(42px) rotate(-270deg) scale(0.5);
+  } 100% { 
+    transform: rotate(-360deg);
+    -webkit-transform: rotate(-360deg);
+  }
+}
